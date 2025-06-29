@@ -1,0 +1,77 @@
+*{
+    font : bold 14px Aria,sans-serif;
+        margin: 0;
+        padding: 0;
+}
+.header{
+    width: 60%;
+    margin-left: 300px;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #96c5db;
+}
+.header h1{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+html {
+    background: radial-gradient(cirle, #fff 20%, rgb(179, 236, 299));
+}
+#calculator {
+    padding: 20px 20px 20px 20px;
+    width: 325px;
+    border-radius: 3px;
+    background: #9dd2ea;
+    box-shadow: 0px 4px #009de4;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+#screen{
+    margin-right: 35px;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    float: right;
+    border-radius: 3px;
+    box-shadow: inset 10px 10px 10px rgba(3, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 212px;
+}
+
+.keys, .top{
+    opacity: hidden;
+}
+
+.keys span, #clear {
+    user-select: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    line-height: 36px;
+    text-align: center;
+    margin: 0 7px 11px 0;
+    color: #888;
+    background: white;
+    position: relative;
+    top: 0;
+    float: left;
+    width: 60px;
+    height: 36px;
+}
+.keys span.operator {
+    background: #fff0f5;
+}
+.keys span.eval {
+    background: #f1ff92;
+    box-shadow: 0px 4px #9da853;
+    color: #888e5f;
+}
+.keys span.eval:active {
+    box-shadow: 0px 0px #717a33;
+    top: 4px;
+}
